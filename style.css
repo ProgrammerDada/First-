@@ -1,0 +1,174 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+nav{
+  background: #FAFF00;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 2px 1px ;
+}
+
+a{
+  text-decoration: none;
+  margin: 30px;
+  font-size: 17px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#profile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#profile img{
+  margin-top: 20px;
+  width: min(20rem,90%);
+  border-radius: 50%;
+  
+}
+.txt h2{
+  margin: 20px;
+  text-align: center;
+}
+
+.txt p{
+  text-align: center;
+  margin: 0px 10px 0px 10px;
+}
+
+.b1{
+  margin: 20px;
+  padding: 9px;
+  border: 2px solid black;
+  border-radius: 15px;
+  background: #FFEE00;
+  
+}
+
+#qq{
+  padding: 9px 15px;
+}
+
+#aboutme{
+  margin: 10px;
+  height: 330px;
+  background: #D8D8D8E8;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center
+}
+
+#aboutme h2{
+  padding: 10px;
+  text-align: center;
+}
+
+#aboutme p{
+  text-align: center;
+  margin: 10px;
+}
+
+#aboutme button{
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #F5FF00;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+#skill{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+#Hskill{
+  text-align: center;
+  margin: 30px;
+}
+
+.contaner{
+  margin: 10px;
+}
+
+.contaner img{
+  height: 250px;
+}
+
+.contaner h1{
+  margin: 20px;
+  text-align: center;
+}
+
+li{
+  margin: 15px
+}
+#cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contact{
+  display: flex;
+  margin: 10px;margin-bottom: 30px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 330px;
+  box-shadow: 15px 15px 30px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+input{
+  margin: 15px;
+  padding: 2px;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  
+}
+
+textarea{
+  margin: 15px;
+  padding: 2px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+#btn{
+  margin-bottom: 10px;
+  padding: 7px 20px;
+  background: #F5FF00;
+  border: 0px;
+  border-radius: 5px;
+}
+
+#Hcontact{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#cat{
+  color: #FF0000;
+}
